@@ -29,9 +29,13 @@ The analysis methodology consists of:
 
 - **Preprocessing**: Split data into train and test sets for modeling. Handled class imbalance via undersampling of the majority class to prevent bias.
 
-- **Modeling**: Compared performance of Logistic Regression, SVM, Neural Networks models. Also explored ensemble techniques to improve predictions.
+- **Modeling**: Compared performance of Logistic Regression, SVM, and Neural Networks models. Also explored ensemble techniques to improve predictions.
 
-- **Evaluation**: Used Accuracy, Precision, Recall, F1 Score, ROC AUC, Log Loss to evaluate and compare models. Selected best model based on these metrics.
+- **Evaluation**: Used Accuracy, Precision, Recall, F1 Score, ROC AUC, and Log Loss to evaluate and compare models. Selected best model based on these metrics.
+
+
+![Picture1](https://github.com/bsr11272/Bank-Marketing-Analysis/assets/48656807/023bf2b9-ae79-4e92-825b-084a8f48249d)
+
 
 ## Key Findings
 - SVM achieved the best performance with an F1 score of 0.91 due to its ability to find the optimal hyperplane.
